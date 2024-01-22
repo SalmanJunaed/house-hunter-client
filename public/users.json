@@ -1,0 +1,26 @@
+[
+    {
+        "user": "userRanter",
+        "userType": "renter",
+        "email": "ranter@user.com",
+        "password": "passRanter",
+        "countryCode": "+880",
+        "phone": 1700000
+    },
+    {
+        "user": "Owner1",
+        "userType": "owner",
+        "email": "owner1@user.com",
+        "password": "passOwner1",
+        "countryCode": "+880",
+        "phone": 1900000
+    },
+    {
+        "user": "Owner2",
+        "userType": "owner",
+        "email": "owner2@user.com",
+        "password": "passOwner1",
+        "countryCode": "+880",
+        "phone": 1800000
+    }
+]
