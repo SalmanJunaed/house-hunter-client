@@ -3,14 +3,25 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
     const navOptions = <>
         <li>
-            <a><Link to='/'>Home</Link></a>
+            <a>
+            <Link to='/'>Home</Link>
+            </a>
         </li>
         <li>
-            <a><Link to='/login'>Login</Link></a>
+            <a>
+            <Link to='/login'>Login</Link>
+            </a>
         </li>
         <li>
-            <a><Link to='/register'>Register</Link></a>
+            <a>
+            <Link to='/register'>Register</Link>
+            </a>
         </li>
+        {/* <li>
+            <a>
+            <Link to='/dashboard'>Dashboard</Link>
+            </a>
+        </li> */}
 
 
         {/* <li><Link to="/dashboard/userHome">User Dashboard</Link></li> */}

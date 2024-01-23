@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 
 const Login = () => {
-    const axiosSecure = useAxiosSecure;
+    const axiosSecure = useAxiosSecure();
     const handleLogin = event => {
         event.preventDefault();
         const form = event.target;
@@ -10,16 +10,28 @@ const Login = () => {
         const password = form.password.value;
 
         const loginValue = {email, password}
-        console.log(loginValue);
+        // console.log(loginValue);
 
-        // sending login data to server 
+        // POST login data to server 
         axiosSecure.post("/userLogin", loginValue)
         .then (res => {
             const data = res.data;
             if (data.login){
-                
+                // successNotify();
+                // loginForm.current.rest();
+                // const loginValue = data.loginuserValu;
+                // trackCurrentUser(loginValue?.user, loginValue?.email, loginValue.userType)
+                // navigate('/')
             } 
+            // console.log(data);
+
+            else{
+                // successNotify(data.message)
+            }
         })
+        // .catch(err=>{
+            
+        // })
     }
     return (
         <div className="hero min-h-screen bg-base-200">
