@@ -6,7 +6,20 @@ const Dashboard = () => {
             {/* Dashboard Sidebar */}
             <div className="w-64 min-h-screen bg-slate-500">
                 <ul className="menu">
+
+
+
+
                     {/* Renter dashboard  */}
+                    <li>
+                        <NavLink to='/dashboard/bookHouse'>Book house</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/dashboard/ownerHouse'>Owned House</NavLink>
+                    </li>
+                    
+                    
+                    {/* Admin Dashboard */}
                     <li>
                         <NavLink to='/dashboard/bookings'>Listed House & Bookings</NavLink>
                     </li>
@@ -16,12 +29,7 @@ const Dashboard = () => {
 
 
 
-                    <li>
-                        <NavLink to='/dashboard/bookHouse'>Book house</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to='/dashboard/ownerHouse'>Owned House</NavLink>
-                    </li>
+                    
 
                     
                     {/* Shared nav link  */}
