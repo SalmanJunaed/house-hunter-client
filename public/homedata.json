@@ -1,6 +1,6 @@
 [
     {
-        "ownerName": "Owner1",
+        "name": "Owner1",
         "address": "123 Main St, Apt 4B, Chittagong",
         "email": "owner1@user.com",
         "countryCode": "+880",
@@ -14,7 +14,7 @@
         "description": "Spacious house with modern amenities in the heart of New York City."
     },
     {
-        "ownerName": "Owner2",
+        "name": "Owner2",
         "address": "789 Bonani, Dhaka",
         "email": "owner2@user.com",
         "countryCode": "+880",
@@ -28,7 +28,7 @@
         "description": "Cozy apartment with a great view of the city skyline in Los Angeles."
     },
     {
-        "ownerName": "Owner1",
+        "name": "Owner1",
         "address": "202 Waterfront Blvd, khulna",
         "email": "owner1@user.com",
         "countryCode": "+880",
@@ -42,7 +42,7 @@
         "description": "Family-friendly home in a quiet neighborhood in Chicago with a spacious backyard."
     },
     {
-        "ownerName": "Owner1",
+        "name": "Owner1",
         "address": "303 kolatoli, Rajsahi",
         "email": "owner1@user.com",
         "countryCode": "+880",
@@ -56,7 +56,7 @@
         "description": "Charming studio apartment in the heart of San Francisco's historic district."
     },
     {
-        "ownerName": "Owner2",
+        "name": "Owner2",
         "address": "404 Oakwood Ln, Chittagong",
         "email": "owner2@user.com",
         "countryCode": "+880",
@@ -70,7 +70,7 @@
         "description": "Modern apartment with waterfront views in downtown Seattle."
     },
     {
-        "ownerName": "Owner2",
+        "name": "Owner2",
         "address": "505 Mountain View Dr, Chittagong",
         "email": "owner2@user.com",
         "countryCode": "+880",
@@ -84,7 +84,7 @@
         "description": "Luxurious beachfront property with a private pool in Miami."
     },
     {
-        "ownerName": "Owner1",
+        "name": "Owner1",
         "address": " 234, Dhanmondi, Dhaka",
         "email": "owner1@user.com",
         "countryCode": "+880",
@@ -98,7 +98,7 @@
         "description": "Quaint bungalow in a historic neighborhood of Dallas with easy access to downtown."
     },
     {
-        "ownerName": "Owner2",
+        "name": "Owner2",
         "address": " 17/4 Kolabagan, Dhaka",
         "email": "owner2@user.com",
         "countryCode": "+880",

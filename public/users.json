@@ -1,6 +1,6 @@
 [
     {
-        "user": "userRanter",
+        "name": "userRanter",
         "userType": "renter",
         "email": "ranter@user.com",
         "password": "passRanter",
@@ -8,7 +8,7 @@
         "phone": 1700000
     },
     {
-        "user": "Owner1",
+        "name": "Owner1",
         "userType": "owner",
         "email": "owner1@user.com",
         "password": "passOwner1",
@@ -16,7 +16,7 @@
         "phone": 1900000
     },
     {
-        "user": "Owner2",
+        "name": "Owner2",
         "userType": "owner",
         "email": "owner2@user.com",
         "password": "passOwner1",

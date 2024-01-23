@@ -1,6 +1,6 @@
 const HouseCard = ({item}) => {
 
-    const {ownerName, address, email, countryCode, phone, city, bedrooms, bathrooms, roomSize, availability, rentPerMonth, description } = item;
+    const {name, address, email, countryCode, phone, city, bedrooms, bathrooms, roomSize, availability, rentPerMonth, description } = item;
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <div className=" p-4 text-left">
@@ -10,7 +10,7 @@ const HouseCard = ({item}) => {
                 <p>Bath Room:{bathrooms}</p>
                 <p>size: {roomSize} sqft</p>
                 {item.availability != true ? <p className="text-green-600 font-bold">Available</p> : <p className="text-red-600 font-bold">Not Available</p> }
-                <p>Owner Name: {ownerName}</p>
+                <p>Owner Name: {name}</p>
                 <p>Owner email: {email}</p>
                 <p>contact no:{countryCode} {phone}</p>
                 {/* <div className=" card-actions justify-center">
