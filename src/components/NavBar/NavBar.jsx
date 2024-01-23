@@ -17,11 +17,11 @@ const NavBar = () => {
             <Link to='/register'>Register</Link>
             </a>
         </li>
-        {/* <li>
+        <li>
             <a>
             <Link to='/dashboard'>Dashboard</Link>
             </a>
-        </li> */}
+        </li>
 
 
         {/* <li><Link to="/dashboard/userHome">User Dashboard</Link></li> */}

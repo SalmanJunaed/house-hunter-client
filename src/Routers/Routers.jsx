@@ -8,6 +8,7 @@ import OwnedHouse from "../pages/Dashboard/OwnedHouse";
 import BookHouse from "../pages/Dashboard/BookHouse";
 import AddAHouse from "../pages/Dashboard/AddAHouse";
 import { Route, Routes } from "react-router-dom";
+import HouseAndBookings from "../pages/Dashboard/HouseAndBookings";
 
 
 export const router = createBrowserRouter([
@@ -47,7 +48,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'bookHouse',
-                element: <BookHouse></BookHouse>
+                element: <HouseAndBookings></HouseAndBookings>
             },
         ]
     },

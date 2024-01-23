@@ -31,7 +31,9 @@ const Dashboard = () => {
                             Home
                         </NavLink>
                     </li>
-
+                    <li>
+                    <button className="btn w-full bg-green-800 text-white pt-4 mx-auto">Login</button>
+                    </li>
 
                 </ul>
             </div>
