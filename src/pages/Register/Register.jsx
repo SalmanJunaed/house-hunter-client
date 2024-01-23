@@ -39,13 +39,13 @@ const Register = () => {
         })
     }
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className=" min-h-screen bg-base-200 mx-auto">
             <div className="hero-content flex flex-col">
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl font-bold text-center">Register</h1>
                 </div>
-                <div className=" card shadow-2xl bg-base-100 w-full">
-                    <form onSubmit={handleRegister} className="card-body">
+                <div className=" card shadow-2xl bg-base-100 w-2/3">
+                    <form onSubmit={handleRegister} className="card-body min-w-max">
                         {/* Name */}
                         <div className="form-control">
                             <label className="label">

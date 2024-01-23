@@ -2,24 +2,24 @@ import { Link } from "react-router-dom"
 
 const NavBar = () => {
     const navOptions = <>
-        <li>
+        <li className="bg-slate-200">
             <a>
             <Link to='/'>Home</Link>
             </a>
         </li>
-        <li>
+        <li className="bg-slate-200">
             <a>
             <Link to='/login'>Login</Link>
             </a>
         </li>
-        <li>
+        <li className="bg-slate-200">
             <a>
             <Link to='/register'>Register</Link>
             </a>
         </li>
-        <li>
+        <li className="bg-yellow-500">
             <a>
-            <Link to='/dashboard'>Dashboard</Link>
+            <Link to='/dashboard/bookHouse'>Dashboard</Link>
             </a>
         </li>
 
