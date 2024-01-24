@@ -18,7 +18,7 @@ const Register = () => {
         console.log(registration);
         
         // send data to server 
-        fetch('http://localhost:5000/newUser', {
+        fetch('https://house-hunter-server-weld.vercel.app/newUser', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 // export const axiosSecure = axios.create({
 const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://house-hunter-server-weld.vercel.app'
 })
 const useAxiosSecure = () => {
     const navigate = useNavigate();

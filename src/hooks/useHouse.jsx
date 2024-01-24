@@ -4,7 +4,7 @@ const useHouse = () => {
     const [house, setHouse] = useState([]);
     const [loading, setLoading] = useState (true);
     useEffect(()=>{
-        fetch('http://localhost:5000/house')
+        fetch('https://house-hunter-server-weld.vercel.app/house')
             .then(res => res.json())
             .then(data => {
                 setHouse(data);

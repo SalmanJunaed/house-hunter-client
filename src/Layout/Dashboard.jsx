@@ -22,16 +22,11 @@ const Dashboard = () => {
                     Admin
                     {/* Admin Dashboard */}
                     <li>
-                        <NavLink to='/dashboard/bookings'>Listed House & Bookings</NavLink>
-                    </li>
-                    <li>
                         <NavLink  to='/dashboard/addHouse'>Add a House</NavLink>
                     </li>
-
-
-
-                    
-
+                    <li>
+                        <NavLink to='/dashboard/bookings'>Listed House & Bookings</NavLink>
+                    </li>
                     
                     {/* Shared nav link  */}
                     <div className="divider"></div>

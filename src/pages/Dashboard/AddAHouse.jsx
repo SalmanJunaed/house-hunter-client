@@ -25,7 +25,7 @@ const AddAHouse = () => {
         console.log(addHome);
         
         // send data to server 
-        fetch('http://localhost:5000/house', {
+        fetch('https://house-hunter-server-weld.vercel.app/house', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'
